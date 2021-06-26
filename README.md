@@ -12,19 +12,19 @@ Some of the features I engineered:
   such as this person:
 
   ```
-PassengerId                                28
-Survived                                    0
-Pclass                                      1
-Name           Fortune, Mr. Charles Alexander
-Sex                                      male
-Age                                        19
-SibSp                                       3
-Parch                                       2
-Ticket                                  19950
-Fare                                      263
-Cabin                             C23 C25 C27
-Embarked                                    S
-```
+  PassengerId                                28
+  Survived                                    0
+  Pclass                                      1
+  Name           Fortune, Mr. Charles Alexander
+  Sex                                      male
+  Age                                        19
+  SibSp                                       3
+  Parch                                       2
+  Ticket                                  19950
+  Fare                                      263
+  Cabin                             C23 C25 C27
+  Embarked                                    S
+  ```
 
 - __est_age__: on Kaggle, it mentions that if a person's age ends in .5, that means their age was estimated. I turned that into a feature as well
 
@@ -33,17 +33,17 @@ Embarked                                    S
   Like Miss. Anna McGowan here:
   ```
   PassengerId                             23
-Survived                                 1
-Pclass                                   3
-Name           McGowan, Miss. Anna "Annie"
-Sex                                 female
-Age                                     15
-SibSp                                    0
-Parch                                    0
-Ticket                              330923
-Fare                                8.0292
-Cabin                                  NaN
-Embarked                                 Q
+  Survived                                 1
+  Pclass                                   3
+  Name           McGowan, Miss. Anna "Annie"
+  Sex                                 female
+  Age                                     15
+  SibSp                                    0
+  Parch                                    0
+  Ticket                              330923
+  Fare                                8.0292
+  Cabin                                  NaN
+  Embarked                                 Q
   ```
 
 - __fam_size__: I combined the 'SibSp' and 'Parch' fields. Like Mr. Charles Alexander Fortune (shown in the num_rooms explanation), has 3 siblings on board with him, and 2 parents. So he has 5 family members on board.
