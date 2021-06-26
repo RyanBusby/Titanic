@@ -55,22 +55,8 @@ Some of the features I engineered:
 
 Here is the result of the data preparations:
 
-
-  Pclass|Age|Fare|fam_size|nicnamed|est_age|embark_Q|embark_S|male|cabin_B|cabin_C|cabin_D|cabin_E|cabin_F|cabin_G|num_rooms_or_x
-  ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
-	3|28.0|7.8958|0|0|0|0|1|0|0|0|0|0|0|0|1
-	3|29.6|7.8958|0|1|1|0|1|1|0|0|0|0|0|0|1
-	1|21.0|77.287|1|0|0|0|1|1|0|0|1|0|0|0|1
-	3|33.0|8.6542|0|0|0|0|1|1|0|0|0|0|0|0|1
-	3|37.0|7.9250|2|0|0|0|1|1|0|0|0|0|0|0|1
-	3|28.0|7.8958|0|0|0|0|1|1|0|0|0|0|0|0|1
-	3|21.0|7.6500|0|0|0|0|1|0|0|0|0|0|0|0|1
-	3|29.6|7.7750|0|0|1|0|1|1|0|0|0|0|0|0|1
-	3|38.0|7.8958|0|0|0|0|1|1|0|0|0|0|0|0|1
-	3|29.6|24.150|1|0|1|1|0|0|0|0|0|0|0|0|1
-
-
-
-![](kaggle_results.png)
+![](img/prepped.png)
 
 __Training an XGBClassifier ([train_predict.py](train_predict.py)) with this data and predicting on test.csv results in an accuracy of 80.62% which is the top 4% of all submissions :)__
+
+![](img/kaggle_results.png)
